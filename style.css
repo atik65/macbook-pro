@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mac-img {
+  width: 90%;
+}
+
+.details p {
+  font-size: 14px;
+}
+
+.table-space {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  margin-bottom: 10px;
+}
+.table-space p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.small-note {
+  font-size: 11px;
+}
+
+/* simple mobile responsive */
+@media only screen and (max-width: 768px) {
+  .table-space {
+    width: 100%;
+    padding-right: 20px;
+  }
+}
